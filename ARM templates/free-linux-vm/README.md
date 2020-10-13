@@ -1,6 +1,6 @@
 # Free Linux VM Deployment
 
-[![Deploy To Azure](https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/1-CONTRIBUTION-GUIDE/images/deploytoazure.svg?sanitize=true)](https://raw.githubusercontent.com/kanovic/infrastructure-as-code/master/ARM%20templates/free-linux-vm/azuredeploy.json)
+[![Deploy To Azure](https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/1-CONTRIBUTION-GUIDE/images/deploytoazure.svg?sanitize=true)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fkanovic%2Finfrastructure-as-code%2Fmaster%2FARM%2520templates%2Ffree-linux-vm%2Fazuredeploy.json)
 [![Visualize](https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/1-CONTRIBUTION-GUIDE/images/visualizebutton.svg?sanitize=true)](http://armviz.io/#/?load=https://raw.githubusercontent.com/kanovic/infrastructure-as-code/master/ARM%20templates/free-linux-vm/azuredeploy.json)
 
 This template allows a new account to create a free Linux Virtual Machine with free services for 12 months. You can use 750 hours of Linux VM of size B1s per month and 2x 64gb Premium SSD drive which are included in the template. This template also deploys a Virtual Network with an inbound rule allowing only port 22 connections for SSH, a Public IP address, a Public domain namespace, and a Network Interface.
